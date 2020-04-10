@@ -92,7 +92,7 @@ console.log("got Here")
 			alert('you found a match');
 			cards[optionOneId].setAttribute('src','images/white.png');
 			cards[optionTwoId].setAttribute('src','images/white.png');
-			cardsWon.push(cardsChosen];
+			cardsWon.push(cardsChosen);
 		}else {
 			cards[optionOneId].setAttribute('src','images/blank.png');
 			cards[optionTwoId].setAttribute('src','images/blank.png');
