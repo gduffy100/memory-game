@@ -64,7 +64,7 @@ console.log("got Here")
 	}	
 	];
 	
-	cardArray.sort(() => 0.5 - math.Random());
+	cardArray.sort(() => 0.5 - Math.Random());
 	
 	// create your game board
 	const grid = document.querySelector('.grid');
